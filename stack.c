@@ -59,7 +59,7 @@ void display() {
   }
   else{
      printf("\n Elements of stack are : ");
-    for(int i=top;i>=0;i--){
+    for(int i=0;i<=top;i++){
         printf("\n%d",STACK[i]);
     }
   }
